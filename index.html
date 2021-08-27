@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
     <title>Document</title>
 </head>
 <body>
@@ -25,53 +26,112 @@
                 <div class="line"></div>
             </div>
         </div>
-        <div class="navigation-wrapper">
-            <ul class="navigation-list">
-                <li class="navigation-item">
+        <div class="nav-wrapper">
+            <ul class="nav-list">
+                <li class="nav-item">
                     <a href="#" class="navigation-link">Live</a>
                 </li>
-                <li class="navigation-item">
+                <li class="nav-item">
                     <a href="#" class="navigation-link">Push</a>
                 </li>
-                <li class="navigation-item">
+                <li class="nav-item">
                     <a href="#" class="navigation-link">Link</a>
                 </li>
-                <li class="navigation-item">
+                <li class="nav-item">
                     <a href="#" class="navigation-link">Shop</a>
                 </li>
-                <li class="navigation-item">
+                <li class="nav-item">
                     <a href="#" class="navigation-link">Packs</a>
                 </li>
-                <li class="navigation-item">
+                <li class="nav-item">
                     <a href="#" class="navigation-link">Help</a>
                 </li>
-                <li class="navigation-item">
-                    <a href="#" class="navigation-link">More</a>
+                <li class="nav-item">
+                    <a href="#" class="navigation-link dropdown">More</a>
                 </li>
-                <li class="navigation-item nav-right">
+                <li class="nav-item nav-right">
                     <a href="#" class="navigation-link">Try Live for Free</a>
                 </li>
-                <li class="navigation-item nav-right">
+                <li class="nav-item">
                     <a href="#" class="navigation-link">Log in or register</a>
                 </li>
             </ul>
         </div>
-    </nav>
-    <nav class="nav-secondary">
-        <ul class="navigation-list">
-            <li class="navigation-item">
-                <a href="#" class="navigation-link">About</a>
-            </li>
-            <li class="navigation-item">
-                <a href="#" class="navigation-link">Jobs</a>
-            </li>
-        </ul>
-    </nav>
+        <div class="more-section">
+            <div class="more-section-top">
+                <h3 class="nav-title">More on Ableton.com:</h3>
+                <ul class="nav-list more-list">
+                    <li class="nav-item">
+                        <a href="#" class="navigation-link more-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="navigation-link more-link">Ableton for the Classroom</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="navigation-link more-link">Ableton for Colleges and Universities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="navigation-link more-link">Certified Training</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="navigation-link more-link">About Ableton</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="navigation-link more-link">Jobs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="more-section-bottom">
+                <h3 class="nav-title">More from Ableton:</h3>
+                <ul class="nav-list more-list">
+                    <li class="nav-item">
+                        <a href="#" class="navigation-link more-link">
+                            <h4>Loop</h4>
+                            <p>Watch Talks, Performances and Features from Ableton's 
+                                Summit for Music Makers
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="navigation-link more-link">
+                            <h4>Learning Music</h4>
+                            <p>Learn the fundamentals of music making right in your browser.
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="navigation-link more-link">
+                            <h4>Learning Synths</h4>
+                            <p>Get started with synthesis using a web-based synth and accompanying lessons.
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="navigation-link more-link">
+                            <h4>Making Music</h4>
+                            <p>Some tips from 74 Creative Strategies for Electronic Producers.
+                            </p>
+                        </a>
+                    </li>
+            </div>
+        </div>
+    </nav>    
 </header>
 
-<main>
+<nav class="nav-secondary">
+    <ul class="nav-list-secondary">
+        <li class="nav-item">
+            <a href="#" class="navigation-link">About</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="navigation-link">Jobs</a>
+        </li>
+    </ul>
+</nav>
+
+<main class="about-page">
     <section class="hero-image">
-        <svg class="hero-image-logo" width="430px" height="104px" viewBox="0 0 430 104" style="text-align: left;">
+        <!--<svg class="hero-image-logo" width="430px" height="104px" viewBox="0 0 430 104" style="text-align: left;">
             <title _mstHash="1120899" _mstTextHash="94367">Ableton</title>
             <g fill="#FD5948">
             <path d="M32.6204615,65.1749841 L47.5563462,31.7794286 L62.5038077,65.1749841 L32.6204615,65.1749841 
@@ -146,7 +206,7 @@
                 407.623462,40.3420952 Z" id="Fill-9" sketch:type="MSShapeGroup">
             </path>
             </g>
-        </svg>
+        </svg>-->
     </section>
     <div class="text-section">
         <h1>We make
@@ -156,9 +216,32 @@
             — unique software and hardware for music creation and performance. 
             With these products, our community of users creates amazing things.
         </h1>
-
+        <p>Ableton was founded in 1999 and released the first version of Live in 2001. 
+            Our products are used by a community of dedicated musicians, sound designers, 
+            and artists from across the world.
+        </p>
+    </div>
+    <section class="image-collage">
+        <div class="collage-bg">
+        </div>
+        <div class="left-image">
+        </div>
+        <div class="right-image">
+        </div>
+    </section>
+    <div class="text-section">
+        <h1>Making music isn’t easy. It takes time, effort, and learning. 
+            But when you’re in the flow, it’s incredibly rewarding.
+        </h1>
+        <p>We feel the same way about making Ableton products. 
+            The driving force behind Ableton is our passion for what we make, 
+            and the people we make it for.
+        </p>
     </div>
 </main>
     
 </body>
+
+<script src="script.js"></script>
+
 </html>
